@@ -1,0 +1,101 @@
+.contenedor_formulario {
+    margin: 0 20%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.estilo_form, h2{  /*<------------------------------------------*/
+    margin-bottom: 1%;
+    color: #609275;
+}
+
+.suscribete{
+    display: flex;
+    justify-content: center;
+}
+
+.suscribete>span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    animation: typing 2.5s steps(20), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 60px;
+    color: #609275;
+    margin-bottom: 3%
+}
+
+@keyframes typing{
+    from {width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+
+.estilo_form,h2{
+    margin-bottom: 5%;
+}
+
+.estilo_form, label{
+    font-size: 120%;
+}
+
+.botones>button{
+    margin-right: 1%;
+    font-size: 150%;
+    background-color: #7ABA96;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+
+.botones>button:hover{
+    background:#609275;
+}
+
+.apartado_formulario{
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.aceptar_cookies{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.aceptar_cookies>p{
+    margin-left: 1%;
+    font-size: 80%;
+}
+
+.campos_form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 20px;
+    margin: 1% 0;
+    border: 2.5px solid #609275;
+}
+
+.subir_receta{
+    margin-bottom: 1%;
+}
+
+.comentario_form{
+    margin-top: 1%;
+}
+
+.comentario_form>textarea{
+    border-radius: 5px;
+    font-family: arial, verdana, ms sans serif;
+    font-size: 20px;
+    border: 2.5px solid #609275;
+}

@@ -1,0 +1,53 @@
+.bienvenida>span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 38ch;
+    animation: typing 5s steps(38), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 60px;
+    color: #8A8070;
+}
+
+@keyframes typing{
+    from {width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+.bienvenida{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    margin: 0% 15%;
+ 
+ }
+ 
+ article>p{
+     font-size: 25px;
+     margin-bottom: 2%;
+     text-align: justify;
+ }
+ 
+.imagenPerfil{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+}
+
+.imagenPerfil>img{
+    border-radius: 10px;
+}
+
+.imagenPerfil>img:hover {
+    -webkit-transform:scale(1);
+    transform:scale(1.05);
+}

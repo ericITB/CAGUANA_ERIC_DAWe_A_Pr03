@@ -1,0 +1,165 @@
+.container-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.descripcionylibro{
+    width: 15%;
+    margin-top: 1.5%;
+    margin-left: 10%; 
+    margin-right: 5%;
+
+}
+
+.sobre_mi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9%;
+}
+
+.sobre_mi>h4{
+    width: 100%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 5%;
+}
+
+.sobre_mi>img{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 5%;
+    top: 0;
+}
+
+.sobre_mi>img:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.1);
+}
+
+.sobre_mi>p{
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+    padding: 2%;
+    color: #8A8070;
+}
+
+.libro_recetas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1D0D0;
+}
+
+.libro_recetas>h4{
+    background-color: #D1D0D0;
+    width: 100%;
+    font-size: 130%;
+    text-align: center;
+    margin: 5% 0;
+}
+.libro_recetas>img{
+    margin-bottom: 3%;
+    background-color: #D1D0D0;
+}
+
+.libro_recetas>img:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.1);
+}
+
+.libro_recetas>p{
+    background-color: #D1D0D0;
+    width: 100%;
+    text-align: justify;
+    font-size: 110%;
+    padding: 2%;
+    color: #8A8070;
+}
+
+.libro_recetas>a{
+    background-color: #7ABA96;
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    font-size: 120%;
+    text-decoration: none;
+    color: black;
+}
+
+.libro_recetas>a:hover{
+    background-color: #EFEFEF;
+    color:#7ABA96;
+}
+
+.estilo_main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+}
+
+.estilo_recetas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 5%;
+    overflow:hidden;
+}
+
+.estilo_recetas>img{
+    height: 350px;
+    width: 500px;
+    margin-bottom: 5%;
+    border-radius: 40px;
+}
+
+.estilo_recetas>img:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.1);
+}
+
+.estilo_recetas>h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+    margin-bottom: 2%;
+}
+
+.estilo_recetas>h4>a:hover{
+    color: #7ABA96;
+}
+.estilo_recetas>h4>a{
+    text-decoration: none;
+    color: black;
+}
+
+.estilo_recetas>h6{
+    border-top-style:solid;
+    border-top-color: #7ABA96;;
+    border-bottom-style:solid ;
+    border-bottom-color: #7ABA96;;
+    border-width: thin;
+    color: black;
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.estilo_recetas>p{
+    font-size: 23px;
+    width: 100%;
+    text-align: justify;
+}
+
+.margen_derecho{
+    margin-right: 5%;
+}

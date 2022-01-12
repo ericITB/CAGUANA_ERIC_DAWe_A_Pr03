@@ -1,0 +1,151 @@
+.contenedor_tabla{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    margin: 0 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.contenedor_tabla>h1{
+    width: 100%;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Caveat', cursive;
+    text-shadow: 5px 5px 5px #95e9b8;
+}
+
+.dificultad_recetas{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.dificultad_recetas>h2{
+    width: 100%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.dificultad_recetas>img{
+    width: 2%;
+    height: 2%;
+    margin-right: 2%;
+}
+
+.dificultad_baja{
+    background: #91e4b5;
+}
+
+.dificultad_media{
+    background-color: #76b993;
+}
+
+.dificultad_alta{
+    background-color: #528568;
+}
+
+
+.favorito{
+    width: 3%;
+    height: 3%;
+    float: right;
+}
+
+.favorito:hover{
+    background: #efb810;
+}
+
+td{
+    width: 100%;
+}
+
+
+.foto_plato{
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 70%;
+}
+
+.encabezado_receta>a{
+    margin-left: 1%;
+    margin-right: 40%;
+    font-size: 150%;
+    text-decoration: none;
+    color:  #609275;
+}
+
+.info_receta{
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.info_receta>p{
+    font-size: 120%;
+    margin-bottom: 1.5%;
+}
+
+.cuadrado{
+    padding: 1.5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.cuadrado_dificultad_baja:hover{
+    border: 8px solid #91e4b5;
+}
+
+.cuadrado_dificultad_media:hover{
+    border: 8px solid #76b993;
+}
+
+.cuadrado_dificultad_alta:hover{
+    border: 8px solid #528568;
+}
+
+.encabezado_receta>a:hover{
+    color: #2b6443;
+}
+
+/*Paginación*/
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+    margin-bottom: 3%;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:25px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:white;
+	background:#7ABA96;
+	text-decoration: none;
+    font-size: 160%;
+    border-radius: 50px;
+}
+
+.paginacion ul li a:hover {
+	background:#508166;
+}
+
+.paginacion ul li .active {
+	background:#508166;
+	font-weight:bold;
+}

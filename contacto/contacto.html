@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="stylesheet" href="../css/estilo_contacto.css" />
+    <link rel="icon" type="image" href="../imagenes/favicon/favicon.ico">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <div class="img_logo">
+            <img src="../imagenes/Logo-Delicias.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../sobreMi/sobreMi.html">Sobre mí</a></li>
+                <li><a href="../listado/listado.html">Recetas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="https://deliciaskitchen.com/otras-cosas/">Otras cosas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor_formulario">
+        <section class="estilo_form">
+            <div class="suscribete">
+                <span>Suscríbete a mi blog</span>
+            </div>
+            <form name="formulario" method="get" action="../index.html">
+                <fieldset class="apartado_formulario">
+                    <legend>
+                        <h2>Datos personales</h2>
+                    </legend>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input class="campos_form" type="text" name="nombre_usuario" id="nombre" placeholder="Nombre">
+                        <label for="apellidos">Apellidos:</label>
+                        <input class="campos_form" type="text" name="apellidos_usuario" id="apellidos" placeholder="Apellidos">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input class="campos_form" type="email" name="email_usuario" id="email" placeholder="ejemplo@gmail.com" required>
+                    </div>
+                </fieldset>
+                <fieldset class="apartado_formulario">
+                    <legend>
+                        <h2>Subir recta (Opcional)</h2>
+                    </legend>
+                    <div>
+                        <label for="receta">Receta:</label>
+                        <input class="subir_receta" type="file" name="receta_usuario" id="receta">
+                    </div>
+                    <div>
+                        <label for="comentarios">Comentario:</label>
+                        <div class="comentario_form">
+                            <textarea rows="5" cols="45" name="comentarios_usuario" id="comentarios"
+                                placeholder="Aqui dispone de espacio para escribir"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <label class="aceptar_cookies" for="cookies">
+                    <input type="checkbox" required>
+                    <p>Acepto el tratamiento de mis datos y la <a
+                            href="https://deliciaskitchen.com/politica-de-privacidad/" target="_blank">Política de
+                            Privacidad y Cookies </a></p>
+                </label>
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+
+            </form>
+        </section>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/deliciaskitchen/?ref=ts" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/deliciaskitchen" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/deliciaskitchen/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.pinterest.es/deliciaskitchen/_created/" target="_blank">Pinterest</a></li>
+            <li><a href="mailto:hola@deliciaskitchen.com" target="_blank">Email</a></li>
+            <li><a href="https://deliciaskitchen.com/feed/" target="_blank">RSS</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
